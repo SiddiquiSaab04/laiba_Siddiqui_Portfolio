@@ -69,7 +69,7 @@ img: snooNewsImg,
   {
     name: "Beat You",
     tag: "Challenge based Platform",
-    url: "",
+    url: "https://beatyou.app/",
     desc: "Beat You is a platform where users can create challenges for themselves and compete with others.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Supabase"],
     result: "Challenge based Platform",

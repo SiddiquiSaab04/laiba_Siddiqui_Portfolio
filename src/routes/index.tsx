@@ -6,7 +6,6 @@ import { About } from "@/components/About";
 import { Experience } from "@/components/Experience";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
-import { GitHubStats } from "@/components/GithubStats";
 import { Contact } from "@/components/Contact";
 import { SmoothScroll } from "@/components/SmoothScroll";
 
@@ -14,6 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Laiba Siddiqui — Frontend Developer crafting cinematic experiences" },
+      { favicon: "/favicon.ico" },
       {
         name: "description",
         content:
